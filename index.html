@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>WebAssignment</title>
+  <link rel="stylesheet" href="animation.css">
+</head>
+
+<body>
+  <h1 id="H" ondragstart="changeColor()" draggable="true">Connect Four</h1>    <!-- when the user drag text the drag event calls the changecolor function-->
+  <div id="playerchoice">Player 1's Turn</div>
+  <div id="createboard"></div>
+
+  <div id="GameRules">
+    <h2>Game Rules</h2>
+    <p>1. Two Players has to play this game.</p>
+    <p>2. The players has to complete the lowest rows first to move to next.</p>
+    <p>3. The player will be won once the player placed his coins or dics vertically, diagonally, horizontally.</p>
+    <p>4. If the players complete filling the rows without wining then it will be consider as draw.</p>
+  </div>
+<button id="button" onclick="showrule()">Ckick to view and hide Game Rules</button>   <!-- when user click on button the onclick event calls the showrule function-->
+
+<script src="webgame.js"></script>
+
+</body>
+
+</html>
